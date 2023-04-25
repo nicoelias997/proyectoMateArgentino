@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.modal-backdrop{
+    z-index:-10;
+    }
+.logo-footer{
+    filter: grayscale(1);
+}
+
+#img{
+    height: 830px;
+    object-fit: cover ;
+}
+/*main{
+    height: calc(100vh - 169px - 90px);
+}*/
+.foto img {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    filter: grayscale(75%);
+    transition: .5s filter ease;
+}   
+.carousel{    
+margin-top: 100px;
+}
+#galeria .col-lg-3 {
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img {
+    width: 100%;
+    ;
+}
+#galeria img:hover {
+    border: 5px solid rgba(0, 79, 0, 0.859);
+}
+.contac1 h1{margin-top: 100px;
+    background-color: #99f98f;
+    border-radius: 15px;
+    box-shadow: 0 12px 16px rgb(0 0 0 / 20%);
+    margin-bottom: 1rem;
+    padding: 1rem  ;}

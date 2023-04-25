@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Proyecto-Bootstrap1/assets/img/kisspng-mate-computer-icons-coffee-clip-art-5aff15c5c85b14.5573262515266666938207.png">
+    <title>Como hacer un mate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link href="images/fontawesome-free-6.1.1-web/css/fontawesome.min" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Proyecto-Bootstrap1/styles/styles.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-12 navbar-dark bg-success">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"> <img src="../..//assets/img/logoquieromatefin-1.png" alt="logoquieromatefin-1" width="150"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <button
+                type="button"
+                class="btn btn-success navbar-nav me-auto mb-2 mb-lg-0"
+              >
+                <a
+                  class="nav-link text-center active"
+                  aria-current="page"
+                  href="/Proyecto-Bootstrap1/pages/login/login.html"
+                  target="_blank"
+                  >INGRESAR</a>
+              
+              </button>
+              
+                
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-success navbar-nav me-auto mb-2 mb-lg-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#nicoModal"
+                >
+                  SUSCRIPCION
+                </button>
+  <!--NICO-->
+  
+  <div class="modal fade" id="nicoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Suscripcion:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="needs-validation">
+            <div class="row d-flex align-center">
+            <div class="mb-2 col-6">
+              <label for="recipient-name1" class="col-form-label">Ingrese su <strong class="bold fs-6">Nombre</strong>:</label>
+              <input type="text" class="form-control" id="recipient-name1" minlength="2" maxlength="30" required>
+            </div>
+            <div class="mb-2 col-6">
+              <label for="recipient-name2" class="col-form-label">Ingrese su <strong class="bold fs-6">Apellido</strong>:</label>
+              <input type="text" class="form-control" id="recipient-name2" minlength="3" maxlength="30" required>
+            </div>
+            </div>
+  
+  
+            <div class="mb-3 col-12">
+              <label for="recipient-name3" class="col-form-label">Ingrese su <strong class="bold fs-6">correo electronico</strong>:</label>
+              <input type="email" class="form-control" id="recipient-name3" placeholder="leomessi@gmail.com
+              " required>
+            </div>
+            
+            <div class="row g-2 d-flex mb-2">
+              <div class="col-6">
+                <div class="form-floating">
+                  <input type="date" class="form-control" id="floatingInputGrid" placeholder="dd/mm/aaaa" min="1900-01-01" max="2004-05-17" required>
+                  <label for="floatingInputGrid">Fecha de nacimiento</label>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid2" placeholder="Argentina" minlength="4" required>
+                  <label for="floatingInputGrid2">Nacionalidad</label>
+                </div>
+              </div>
+            </div>
+  
+            <div class="mb-3 col-12">
+              <label for="recipient-name4" class="col-form-label">Ingrese su <strong class="bold fs-6">Contraseña</strong>:</label>
+              <input type="password" class="form-control" id="recipient-name4" placeholder="min 8 caracteres
+              " minlength="8" required>
+            </div>
+            
+          </form>
+  
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Suscribirse</button>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  
+              
+              
+              <button
+                type="button"
+                class="btn btn-success navbar-nav me-auto mb-2 mb-lg-0"
+              >
+              <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/Proyecto-Bootstrap1/pages/contacto/contacto.html"
+                  target="_blank"
+                  >CONTACTO</a
+                >
+              </button>
+              <button
+                type="button"
+                class="btn btn-success navbar-nav me-auto mb-2 mb-lg-0"
+              >
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/Proyecto-Bootstrap1/pages/quienessomos/quienessomos.html"
+                  target="_blank"
+                  >QUIENES SOMOS</a
+                >
+              </button>
+  
+            
+            </div>
+          </div>
+        </nav>
+      </header>
+
+ <main class="container-fluid">
+
+
+<div class="card col-12 border border-success p-1 mt-1 d-flex justify-content-center align-items-center">
+<!--AQUI HARE COMO LA INTRODUCCION-->
+<div class="col-5">
+    <img src="/Proyecto-Bootstrap1/assets/img/mate-como-prep2.jpg" alt="" class="img-fluid rounded-circle">
+</div>
+
+<div class="col-12">
+    <p class="fs-5 text-center p-1">El mate es una bebida cuya preparación consiste en macerar hojas secas de la planta de yerba mate en agua caliente.<br> Para poder disfrutar el mate de la manera tradicional, tendrás que prepararlo como se describirá a continuación.
+
+    </p>
+</div>
+</div><!--HASTA AQYU LA INTRODUCCION-->
+
+<section class="row">
+<article class="col-12 col-md-8">
+<div class="card col border border-success p-1 d-flex justify-content-evenly align-items-center">
+    <!--AQUI HARE PASO 1-->
+    <div class="col-12 bg-success bg-gradient">
+    <h1 class="card-header text-start text-white">1</h1>
+    </div>
+    
+    <div class="col-10">
+        <p class="fs-5 text-center p-1"> Calentar agua, luego colocarla en un termo. Tenga en cuenta que el agua no debe estar tibia ni dejarse hervir, para tomar “buenos mates” la temperatura del agua aconsejable es de 70-80°C.
+    
+        </p>
+    </div>
+    </div>
+
+
+    <div class="card col border border-success p-1 d-flex justify-content-evenly align-items-center">
+        <!--AQUI HARE PASO 2-->
+        <div class="col-12 bg-success bg-gradient">
+        <h1 class="card-header text-start text-white">2</h1>
+        </div>
+        
+        <div class="col-10">
+            <p class="fs-5 text-center p-1">Vierta yerba dentro del mate hasta alcanzar las tres cuartas partes del mismo. Si lo desea, para que los primeros mates no sean tan amargos, puede agregar  una o dos cucharaditas de azúcar.
+            </p>
+        </div>
+        </div>
+
+        <div class="card col  border border-success p-1 d-flex justify-content-evenly align-items-center">
+            <!--AQUI HARE PASO 3-->
+            <div class="col-12 bg-success bg-gradient">
+            <h1 class="card-header text-start text-white">3</h1>
+            </div>
+            
+            <div class="col-10">
+                <p class="fs-5 text-center p-1">Tape con una mano la boca del mate, inviértalo y agítelo unos instantes. Vuelva el objeto a su posición normal. Cuide que la yerba quede recostada sobre una de las paredes del mate y además se forme un pequeño agujero.
+                </p>
+            </div>
+            </div>
+
+            <div class="card col border border-success p-1 d-flex justify-content-evenly align-items-center">
+                <!--AQUI HARE PASO 4-->
+                <div class="col-12 bg-success bg-gradient">
+                <h1 class="card-header text-start text-white">4</h1>
+                </div>
+                
+                <div class="col-10">
+                    <p class="fs-5 text-center p-1">Para comenzar el mate, coloque agua tibia suavemente en el hueco que quedó en la yerba. Iniciar el mate con agua tibia, permitirá que no se queme la yerba y pierda el gusto.  Deje reposar unos instantes.
+                </div>
+                </div>
+
+                <div class="card col border border-success p-1 mb-1 d-flex justify-content-evenly align-items-center">
+                    <!--AQUI HARE PASO 5-->
+                    <div class="col-12 bg-success bg-gradient">
+                    <h1 class="card-header text-start text-white">5</h1>
+                    </div>
+                    
+                    <div class="col-10">
+                        <p class="fs-5 text-center p-1">Introduzca la bombilla en el hueco húmedo.<br>Una vez que hizo estos pasos puede comenzar a cebar el mate.<br>🧉
+                    </div>
+                </article>
+    <article class="col-4 d-none d-md-block">
+        
+            <!-- Search widget-->
+            <div class="card mb-1 mt-1 border border-success">
+                <div class="card-header bg-success bg-gradient text-white">Buscar</div>
+                <div class="card-body">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Que querés buscar..." aria-label="Enter search term..." aria-describedby="button-search">
+                        <a class="btn btn-success text-white" href="/Proyecto-Bootstrap1/pages/error404/error404.html" role="button">Vamo</a>
+                        <!--<button class="btn btn-success" id="button-search" type="button">Go!</button>-->
+                    </div>
+                </div>
+            </div>
+            <!-- Categories widget-->
+            <div class="card mb-2 border border-success">
+                <div class="card-header bg-success bg-gradient text-white">Categorías</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li><a class="link-success" href="/Proyecto-Bootstrap1/pages/error404/error404.html">Datazos</a></li>
+                                <li><a class="link-success" href="/Proyecto-Bootstrap1/pages/error404/error404.html">Economía</a></li>
+                                <li><a class="link-success" href="/Proyecto-Bootstrap1/pages/error404/error404.html">Industria</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li><a class="link-success" href="/Proyecto-Bootstrap1/pages/error404/error404.html">Yerba</a></li>
+                                <li><a class="link-success" href="/Proyecto-Bootstrap1/pages/error404/error404.html">Matienzos</a></li>
+                                <li><a class="link-success" href="/Proyecto-Bootstrap1/pages/error404/error404.html">Bombillas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div>
+    </div>
+</div>
+<div class="card mb-1 border border-success">
+<img src="/assets/img/cebar-mates-car2.jpg" alt="">
+</div>
+<div class="card mt-1 mb-1 border border-success">
+    <img src="/assets/img/cebar-mates-car2.jpg" alt="">
+    </div>
+    <div class="card mt-1 mb-1 border border-success">
+        <img src="/assets/img/cebar-mates-car2.jpg" alt="">
+        </div>
+       
+
+    </article>
+    </section> 
+
+
+    <div class="card col-12 border border-success p-1 mt-1 d-flex justify-content-center align-items-center">
+        
+        <section class="mb-1">
+            <div class="card">
+                <div class="card-body">
+                    <!-- Comment form-->
+                    <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Unete a la discusion y dejanos un comentario!"></textarea></form>
+                    <!-- Comment with nested comments-->
+                    <div class="d-flex mb-4 justify-content-center">
+                        <!-- Parent comment-->
+                        <div class="flex-shrink-0"><img class="rounded-circle" src="/Proyecto-Bootstrap1/assets/img/avatar1.jpg" alt="persona1"></div>
+                        <div class="ms-3">
+                            <div class="fw-bold text-success">Avatar 1</div>
+                            <p>Es la mejor infusion que pude haber probado en mi vida, siempre es necesario para mi dia a dia.</p>
+                            <!-- Child comment 1-->
+                            <div class="d-flex mt-4">
+                                <div class="flex-shrink-0"><img class="rounded-circle" src="/Proyecto-Bootstrap1/assets/img/avatar2.jpg" alt="persona2"></div>
+                                <div class="ms-3">
+                                    <div class="fw-bold text-success">Avatar 2</div>
+                                    <p>Agradezco a mi amigo argertino por hacerme probar esta infusion que tanto disfruto. Encima me vengo a enterar que se puede tomar con hielo y jugo, y se llama terere!! Gracias por tanto Argentina. </p>
+                                </div>
+                            </div>
+                            <!-- Child comment 2-->
+                            <div class="d-flex mt-4">
+                                <div class="flex-shrink-0"><img class="rounded-circle" src="/Proyecto-Bootstrap1/assets/img/avatar3.jpg" alt="persona3"></div>
+                                <div class="ms-3">
+                                    <div class="fw-bold text-success">Avatar 3</div>
+                                    <p>Tienes toda razon, desde que lo probe por primera vez, tomo por lo menos un termo de mate por dia! Y cuando hace frio ni hablar!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single comment-->
+                    <div class="d-flex">
+                        <div class="flex-shrink-0"><img class="rounded-circle" src="/Proyecto-Bootstrap1/assets/img/avatar4.jpg" alt="persona4"></div>
+                        <div class="ms-3">
+                            <div class="fw-bold text-success">Avatar 4</div>
+                            <p>Estoy viajando por Europa y veo mucha gente con el termo y el mate, por todos lados!!<br>Empece a charlar con varios y resultaron ser de Argentina y Uruguay y existe mucho debate para saber de donde es originario jajaja. Lo que no tiene discusion es que lo beberia todos los dias 😍
+                        
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+                
+    <!--CONCLUSION DESPUES ESTO + FOOTER-->
+
+ </main>
+ <footer class="bg-dark text-center text-white">
+  <div class="container-fluid p-4 pb-0 border-bottom">
+    <div class="row"> 
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-4 border-end">
+        <a href="/Proyecto-Bootstrap1/index.html">
+          <img class="logo-footer" src="../../assets/img/logoquieromatefin-1.png" alt="logo" width="150px" >
+        </a>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-4 d-flex justify-content-center align-items-center text-center px-5"> Quiero Mate! <br> De la web a la cabeza, de la cabeza al mate.</div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-4 text-start border-start d-flex align-items-center justify-content-evenly">
+        <a class="btn btn-outline-light rounded-circle pb-2 btn-sm" href="https://www.instagram.com" role="button" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a class="btn btn-outline-light rounded-circle pb-2 btn-sm" href="https://www.facebook.com" role="button" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a class="btn btn-outline-light rounded-circle pb-2 btn-sm" href="https://www.google.com" role="button" target="_blank"><i class="bi bi-google"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center text-secondary p-3">
+    ©2022 Copyright
+    <a  class="link-secondary text-decoration-none" href="https://www.youtube.com/watch?v=oetOiVjmAkE" target="_blank">QuieroMate.com</a>
+  </div>
+  </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+</body>
+</html>

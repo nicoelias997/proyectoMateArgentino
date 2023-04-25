@@ -1,0 +1,15 @@
+.imagen-fondo{
+    background-image: url(https://img.freepik.com/vector-gratis/ilustrador-oops-404-pagina-error-no-encontrada-vector-fondo-verde-ojos-diseno-moderno_126267-6895.jpg?w=2000);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+    
+
+.position{
+    display: flex;
+    flex-direction: column;
+;
+}    
